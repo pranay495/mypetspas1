@@ -1,11 +1,11 @@
 <?php
 
-    $to = "support@mypetspas.com";
+    $to = "vet@mypetspas.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $pet_type = $_REQUEST['pet_type'];
     $petname = $_REQUEST['pet_name'];
-    $subject = $_REQUEST['subject'];
+    $csubject = $_REQUEST['subject'];
     $number = $_REQUEST['number'];
     $date = $_REQUEST['date'];
     $time = $_REQUEST['time'];
@@ -17,7 +17,7 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $subject = "You have a message from your My Pet Spas.";
+    $subject = "You have Vet Booking from My Pet Spas";
 
     $logo = 'images/logo.png';
     $link = 'mypetspas.com';
@@ -35,12 +35,13 @@
   $body .= "<tr><td style='border:none;'><strong>Date:</strong> {$date}</td>";
 	$body .= "<td style='border:none;'><strong>Time:</strong> {$time}</td>";
 	$body .= "</tr>";
-	$body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$subject}</td></tr>";
+	$body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$csubject}</td></tr>";
 	$body .= "<tr><td></td></tr>";
 	$body .= "<tr><td colspan='2' style='border:none;'>{$cmessage}</td></tr>";
 	$body .= "</tbody></table>";
 	$body .= "</body></html>";
 
     $send = mail($to, $subject, $body, $headers);
+    header("Location:/vet.php");
 
 ?>

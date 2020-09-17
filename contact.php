@@ -56,7 +56,7 @@ include('header.php')
 				        			<span class="fa fa-phone"></span>
 				        		</div>
 				        		<div class="text">
-					            <p><span>Phone:</span> <a href="tel://1234567920">+91 91333 33502</a></p>
+					            <p><span>Phone:</span> <a href="tel://1234567920">+91 88863 67170</a></p>
 					          </div>
 				          </div>
 								</div>

@@ -7,9 +7,9 @@
         <h2 class="footer-heading">My Pet Spas</h2>
         <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
         <ul class="ftco-footer-social p-0">
-          <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="fa fa-twitter"></span></a></li>
-          <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="fa fa-facebook"></span></a></li>
-          <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="fa fa-instagram"></span></a></li>
+          <li class="ftco-animate"><a href="" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="fa fa-twitter"></span></a></li>
+          <li class="ftco-animate"><a href="https://www.facebook.com/pg/Mypetspas-101668875020333" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="fa fa-facebook"></span></a></li>
+          <li class="ftco-animate"><a href="https://www.instagram.com/mypetspas/" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="fa fa-instagram"></span></a></li>
         </ul>
       </div>
       <!-- <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
@@ -43,6 +43,7 @@
           <li><a href="index.php" class="py-2 d-block">Home</a></li>
           <li><a href="about.php" class="py-2 d-block">About</a></li>
           <li><a href="services.php" class="py-2 d-block">Services</a></li>
+          <li><a href="booktraining.php" class="py-2 d-block">Training Services</a></li>
           <li><a href="vet.php" class="py-2 d-block">Vet On Call</a></li>
           <!-- <li><a href="#" class="py-2 d-block">Blog</a></li> -->
           <li><a href="contact.php" class="py-2 d-block">Contact</a></li>
@@ -53,7 +54,7 @@
         <div class="block-23 mb-3">
           <ul>
             <li><span class="icon fa fa-map"></span><span class="text">3-5-327, Vittalwadi, near Veternary hospital, Hyderabad -500029</span></li>
-            <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+91 91333 33502</span></a></li>
+            <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+91 88863 67170</span></a></li>
             <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">support@mypetspas.com</span></a></li>
           </ul>
         </div>
@@ -94,6 +95,20 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="js/google-map.js"></script>
 <script src="js/main.js"></script>
 
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5f47f933cc6a6a5947af6319/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 
 </body>
 </html>

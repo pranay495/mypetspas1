@@ -2,14 +2,14 @@
 include('header.php')
 ?>
 
-<div class="hero-wrap js-fullheight" style="background-image: url('images/bg_3.jpg');" data-stellar-background-ratio="0.5">
+<div class="hero-wrap" style="background-image: url('images/bg_3.jpg');" data-stellar-background-ratio="0.5">
   <div class="overlay"></div>
   <div class="container">
-    <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
+    <div class="row no-gutters slider-text  align-items-center justify-content-center" data-scrollax-parent="true">
     		<div class="row d-md-flex justify-content-end">
-    			<div class="col-md-12 col-lg-6 half p-3 py-5 pl-lg-5 ftco-animate">
+    			<div class="col-md-12 col-lg-6 half   pl-lg-5 ftco-animate">
     				<h2 class="mb-4">Book Consultation</h2>
-    				<form action="#" class="appointment">
+    				<form action="book_vet.php" class="appointment">
     					<div class="row">
     						<div class="col-md-12">
 									<div class="form-group">

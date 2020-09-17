@@ -42,9 +42,9 @@
 					<div class="col-md-6 d-flex justify-content-md-end">
 						<div class="social-media">
 			    		<p class="mb-0 d-flex">
-			    			<a href="https://www.facebook.com/pg/Mypetspas-101668875020333" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+			    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
 			    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
-			    			<a href="https://www.instagram.com/mypetspas/" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
+			    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
 			    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
 			    		</p>
 		        </div>
@@ -61,15 +61,10 @@
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	        	<li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
-	        	<li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="vet.php" class="nav-link">Vet On-Call</a></li>
-	        	<li class="nav-item"><a href="booktraining.php" class="nav-link">Training Service</a></li>
-	        	<li class="nav-item"><a href="services.php" class="nav-link">Services</a></li>
-	          <!-- <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li> -->
-	          <!-- <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li> -->
-	          <!-- <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li> -->
-	          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+	        	<li class="nav-item"><a href="admin.php" class="nav-link">Admin</a></li>
+	        	<li class="nav-item"><a href="viewbookings.php" class="nav-link">View Bookings</a></li>
+	        	<li class="nav-item"><a href="updateslots.php" class="nav-link">Update Slots</a></li>
+	          <li class="nav-item"><a href="logout.php" class="nav-link">Logout</a></li>
 	        </ul>
 	      </div>
 	    </div>
